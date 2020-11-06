@@ -9,6 +9,7 @@ import Clarifai from 'clarifai';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Signin from './components/Signin/Signin'
 import Register from './components/Register/Register'
+import Footer from './components/Footer/Footer'
 
 const app = new Clarifai.App({
   apiKey: 'e7ca315d8799496bb20a8fe7a4a0f386'
@@ -87,6 +88,7 @@ class App extends Component {
         onButtonSubmit={this.onButtonSubmit}
         />
         <FaceRecognition imageUrl={this.state.imageUrl} celebrity={this.state.celebrity}/> 
+        <Footer/>
       </div>
     );
 }
