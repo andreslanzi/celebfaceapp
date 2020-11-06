@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.form {
+  width: 700px;
+  background-color: rgba(7, 7, 7, 0.2);
+}
+
+body {
+  font-family: "Audiowide", cursive;
+  word-spacing: monospace;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
